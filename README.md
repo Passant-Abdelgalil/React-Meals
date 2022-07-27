@@ -1,4 +1,5 @@
 # React Meals
+[README-GIF.webm](https://user-images.githubusercontent.com/69261710/181136583-d943d4eb-ee2a-4365-bcf6-4edf0db09773.webm)
 
 
 ### Built with
@@ -18,13 +19,13 @@
 1. Clone the repository
 
    ```
-   git clone https://github.com/Passant-Abdelgalil/coach-finder.git
+   git clone https://github.com/Passant-Abdelgalil/React-Meals.git
    ```
 
 2. Navigate to the directory
 
    ```
-   cd coach-finder
+   cd React-Meals
    ```
 
 3. Install dependencies
