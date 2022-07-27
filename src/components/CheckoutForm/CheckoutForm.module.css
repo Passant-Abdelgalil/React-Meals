@@ -1,0 +1,28 @@
+.checkout-form {
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 15rem;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.checkout-form__input {
+  padding: 5px 0;
+}
+.checkout-form__input__label {
+  font-weight: bold;
+  display: block;
+  padding-bottom: 8px;
+}
+.checkout-form__input__field {
+  border: 1px solid #bbb;
+  font-size: 18px;
+  padding: 5px;
+  width: 50%;
+  min-width: 300px;
+}
+
+.checkout-form__actions {
+  text-align: right;
+  padding: 10px 0;
+}

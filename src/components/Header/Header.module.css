@@ -1,0 +1,16 @@
+.header {
+  background-color: brown;
+  color: white;
+  padding: 10px;
+}
+.logo {
+  margin: 0;
+}
+:global(.container) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  position: relative;
+}

@@ -1,0 +1,17 @@
+.button {
+  cursor: pointer;
+  width: 100px;
+  padding: 10px 20px;
+  font-size: 14px;
+  border: 1px solid brown;
+  border-radius: 20px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+.button:hover,
+.button:focus,
+.button:focus-visible,
+.button:active {
+  outline: none;
+  border-color: transparent;
+}

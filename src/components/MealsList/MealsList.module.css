@@ -1,0 +1,26 @@
+.content {
+  background-color: rgb(44, 43, 43);
+  width: 100%;
+  min-height: calc(50vh - 70px); /* subtracting the header height*/
+}
+.meals-list {
+  margin: auto;
+  width: 80%;
+  background-color: white;
+  border-radius: 20px;
+  list-style: none;
+  padding: 20px 40px;
+  animation: hopin 0.3s ease-out;
+}
+.container {
+  padding-top: 100px;
+}
+/* animations */
+@keyframes hopin {
+  0% {
+    margin-top: 200px;
+  }
+  100% {
+    margin-top: 100px;
+  }
+}

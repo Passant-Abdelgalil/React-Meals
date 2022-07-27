@@ -1,0 +1,51 @@
+.success-div {
+  margin: auto;
+  padding: 10px;
+}
+.success-msg {
+  text-align: center;
+  font-weight: bold;
+}
+.success-icon {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border: 5px solid green;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  animation: fadeIn 1.2s linear forwards;
+  margin: auto;
+}
+/* short line */
+.success-icon::before {
+  position: absolute;
+  content: "";
+  width: 5px;
+  height: 20px;
+  bottom: 8px;
+  left: 12px;
+  transform: rotate(-40deg);
+  background-color: green;
+}
+
+/* long line */
+.success-icon::after {
+  position: absolute;
+  content: "";
+  width: 5px;
+  height: 41px;
+  background-color: green;
+  transform: rotate(50deg);
+  right: 12px;
+  bottom: 5px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

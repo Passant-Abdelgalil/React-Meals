@@ -1,0 +1,38 @@
+.error-div {
+  margin: auto;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+.error-msg {
+  color: #aaa;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  padding: 5px 0;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/* vertical line */
+.error-icon {
+  display: block;
+  height: 80px;
+  width: 10px;
+  border-radius: 8px;
+  background-color: #aaa;
+  margin: auto;
+  position: relative;
+}
+/* white ball */
+.error-icon::before {
+  content: "";
+  background-color: #aaa;
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  top: calc(100% + 10px); /* = text height + (some padding = 10px) */
+  left: 50%;
+  transform: translateX(-50%);
+}

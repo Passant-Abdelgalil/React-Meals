@@ -1,0 +1,74 @@
+.meal-item {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 12px 0;
+}
+.meal-item::before {
+  content: "";
+  position: absolute;
+  border-bottom: 0.1px solid #ddd;
+  width: 100%;
+  bottom: 0;
+}
+
+.meal-item__title {
+  font-weight: bold;
+  margin: 0;
+  padding: 5px 0;
+  font-size: 18px;
+}
+.meal-item__desc {
+  font-style: italic;
+  margin: 0;
+  padding: 5px 0;
+}
+.meal-item__price {
+  margin: 0;
+  padding: 5px 0;
+  color: brown;
+  font-size: 20px;
+  font-weight: bold;
+}
+.meal-item__form {
+  text-align: right;
+}
+
+.meal-item__amount {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-end;
+}
+.meal-item__amount__title {
+  font-weight: bold;
+  margin: 0;
+}
+.meal-item__amount__value {
+  border: 0.5px solid #ccc;
+  margin-left: 15px;
+  padding: 2px;
+  width: 40px;
+  font-size: 16px;
+}
+
+.meal-item--add {
+  border: none;
+  width: 100px;
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 20px;
+  background-color: brown;
+  color: white;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.error {
+  border: 1px solid red;
+  background-color: rgb(255, 180, 180);
+}
+.error-msg {
+  color: red;
+  margin: 0;
+  padding: 8px 0;
+}

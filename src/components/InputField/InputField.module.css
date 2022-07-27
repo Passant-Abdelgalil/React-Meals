@@ -1,0 +1,26 @@
+.checkout-form__input {
+  padding: 5px 0;
+}
+.label {
+  font-weight: bold;
+  display: block;
+  padding-bottom: 8px;
+}
+.input {
+  border: 1px solid #bbb;
+  font-size: 18px;
+  padding: 5px;
+  width: 50%;
+  min-width: 300px;
+}
+.input:focus {
+  border: 1px solid #bbb;
+  outline: none;
+}
+.input.error {
+  border: 1px solid red;
+}
+
+.error-msg {
+  color: red;
+}
